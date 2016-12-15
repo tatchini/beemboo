@@ -1,0 +1,401 @@
+body {
+    background: #101417;
+    font-family: "Segoe UI", "Tahoma", "Arial";
+    color:#fff;
+}
+.header {
+    margin-top: 60px;
+}
+.logo {
+    width:182px;
+}
+.bg-container {
+    background: #101417 url(../img/bg2.jpg) no-repeat center bottom;
+    min-height: 550px;
+}
+.header-slogan_h {
+    font-size: 18px;
+    color:#b6b6b6;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    margin-top:-5px;
+    vertical-align: top;
+    line-height: 23px;
+}
+.header-contacts {
+    float:right;
+    font-size: 19px;
+    margin-top:-5px;
+    margin-right:10px;
+}
+.header-language_link.active {
+    color:#fff;
+}
+.header-language_space {
+    margin: 0 10px;
+}
+.header-contacts_phone, .header-contacts_mail, .header-contacts_skype {
+    color:#abcfd9;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 35px;
+}
+.header-contacts a {
+    color:#ABCFD9;
+}
+.header-contacts_phone {
+    background: url(../img/icon-phone-blue.png) no-repeat 4px center;
+    height:25px;
+    margin: 0 0 5px 0;
+}
+.header-contacts_mail {
+    background: url(../img/icon-mail-blue.png) no-repeat 1px center;
+    height:25px;
+    margin: 5px 0;
+}
+.header-contacts_skype {
+    background: url(../img/icon-skype-blue.png) no-repeat left center;
+    height:25px;
+    margin: 5px 0;
+}
+.header-contacts_callus {
+    color:#3b8aaf;
+}
+.header-menu_container {
+    border-bottom: 1px #3881a5 solid;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+.header-menu {
+    position: relative;
+    list-style: none;
+    margin-left:0;
+    vertical-align: bottom;
+}
+.header-menu_li {
+    position: relative;
+    display: inline-block;
+    float:left;
+    font-size: 14px;
+    vertical-align: bottom;
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+.header-menu_li_findticket {
+    font-size: 19px;
+    margin-top:-2px;
+}
+.header-menu_li a {
+    color:#fff;
+}
+.findticket_container {
+    margin-top:45px;
+}
+
+.findticket_container [class*="span"] {
+    margin-left:10px;
+}
+.findticket_container .row {
+    margin-left:-10px;
+}
+.findticket_label {
+    font-size: 12px;
+    margin-bottom:0;
+}
+.findticket_label-inline {
+    display: inline-block;
+    top: 3px;
+
+}
+input.findticket_input {
+    width:235px;
+    padding: 9px 10px 10px 40px;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 0;
+    border:0;
+    color:#262626;
+    margin-bottom: 5px;
+}
+input.findticket_data {
+    width:119px;
+    padding: 9px 7px 10px 8px;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 0;
+    border:0;
+    color:#262626;
+}
+.findticket_select-container {
+    width:90px;
+}
+select.findticket_select {
+    background: #fff;
+    width:86px;
+    font-size: 14px;
+    padding: 8px 7px 10px 8px;
+    height: 40px;
+    font-family: inherit;
+    border-radius: 0;
+    border:0;
+    
+}
+.onewayticket-check {
+    vertical-align: top;
+    margin-bottom:5px;
+}
+.js-one_way_container {
+    margin-bottom: 15px;
+}
+.findticket_input-map {
+    background: url(../img/icon-mappointer.png) no-repeat 8px center;
+}
+.findticket_input-calendar {
+    background: url(../img/icon-calendar.png) no-repeat 100px center;
+}
+.findticket_input-person {
+    background: url(../img/icon-person.png) no-repeat 8px center;
+}
+input.findticket_input-mail {
+    background: #fff url(../img/icon-mail.png) no-repeat 8px center;
+    padding-left:40px;
+}
+.findticket_input-phone {
+    background: url(../img/icon-phone.png) no-repeat 8px center;
+}
+.error.findticket_input-map {
+    background: #fff url(../img/icon-mappointer_error.png) no-repeat 8px center;
+    color:#d12a03;
+}
+.error.findticket_input-calendar {
+    background: #fff url(../img/icon-calendar_error.png) no-repeat 100px center;
+    color:#d12a03;
+}
+.error.findticket_input-person {
+    background: #fff url(../img/icon-person_error.png) no-repeat 8px center;
+    color:#d12a03;
+}
+.error.findticket_input-mail {
+    background: #fff url(../img/icon-mail_error.png) no-repeat 8px center;
+    color:#d12a03;
+}
+.error.findticket_input-phone {
+    background: #fff url(../img/icon-phone_error.png) no-repeat 8px center;
+    color:#d12a03;
+}
+button.btn-find.btn {
+    background-image: -moz-linear-gradient(center top , #3582a8, #185d86);
+    width:135px;
+    padding: 7px 5px;
+    margin-left:13px;
+    border-radius: 6px;
+    
+}
+.btn-find_icon {
+    background: url(../img/icon-tick.png) no-repeat;
+    width:15px;
+    height: 19px;
+    position: relative;
+    display: inline-block;
+
+}
+.btn-find:hover {
+    background: #3781a9;
+}
+.findticker_approveblock {
+    margin-top:25px;
+}
+.findticker_approveblock label {
+    line-height: 16px;
+}
+.findticker_approveblock input {
+    margin-right: 10px;
+}
+.checkbox.span2 {
+    width:120px;
+}
+.promotext {
+    margin-top:42px;
+    float: right;
+    width:280px;
+}
+.promo-title {
+    font-size: 27px;
+    line-height: 38px;
+    font-weight: normal;
+    color:#6ca7c5;
+}
+.promi-title2 {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-top: 40px;
+}
+
+.whyhow_container {
+    width:100%;
+    padding: 40px 0;
+    background: #ebebeb;
+    color:#131418;
+    border-top: 1px #2d4165 solid;
+}
+.whyhow_title {
+    font-size: 27px;
+    color:#131418;
+    font-weight: normal;
+    margin-top:0;
+    margin-bottom: 0;
+
+}
+.whyhow_line {
+    border-bottom: 1px #919191 solid;
+    margin-top:55px;
+    margin-bottom:40px;
+}
+.whypride-reasons {
+    font-size: 19px;
+}
+.whypride-reason {
+    margin-top:50px;
+    margin-right:30px;
+}
+.whypride-reason1 {
+    width:230px;
+}
+.whypride-reason2 {
+    width:190px;
+    margin-left:135px;
+}
+.whypride-reason3 {
+    margin-right: 0;
+    width:215px;
+    margin-left:110px;
+}
+.whypride-reason div {
+    position: relative;
+    display: inline-block;
+    float:left;
+}
+.whypride-reason_accent {
+    font-size: 73px;
+    color:#1b71a5;
+    font-weight: normal;
+    vertical-align: top;
+}
+.whypride-reason-text_left {
+    margin-right: 10px;
+}
+.whypride-reason-text_right {
+    margin-left: 10px;
+}
+.howto.row {
+    background: url(../img/bg-arrows.png) no-repeat 68px 50px;
+    margin-top:40px;
+}
+.howto-circle {
+    font-size: 19px;
+    line-height: 27px;
+    padding: 130px 0 0 0;
+    margin-right: 50px;
+    width:190px;
+}
+.howto-circle1 {
+    background: url(../img/howto-comp.png) no-repeat;
+}
+.howto-circle2 {
+    background: url(../img/howto-planes.png) no-repeat;
+    width:200px;
+}
+.howto-circle3 {
+    background: url(../img/howto-ticket.png) no-repeat;
+    width:190px;
+}
+.howto-circle4 {
+    background: url(../img/howto-flight.png) no-repeat;
+    margin-right: 0;
+    width:150px;
+}
+.footer-container {
+    border-top: 2px #2b4064 solid;
+    background: url(../img/bg-footer.jpg) no-repeat top center;
+}
+.footer {
+    padding: 50px 0;
+    background: url(../img/bg-footer.jpg) no-repeat top center;
+}
+.copyright {
+    font-size: 14px;
+    margin-top:35px;
+    display: block;
+    float:none;
+    clear:both;
+    text-align: right;
+}
+.footer-menu {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+.footer-menu_li {
+    display: inline-block;
+    float:left;
+    margin: 0 0px 0 40px;
+    color:#3a87ad;
+
+}
+.footer-menu_li a {
+    color:#3a87ad;
+    border-bottom: 1px #3a87ad solid;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-menu_li a:hover {
+    color:#3a87ad;
+    border-bottom: 0;
+}
+.footer-icons {
+    text-align: right;
+    margin-top:100px;
+}
+.footer-icons img {
+    margin-left: 20px;
+}
+
+
+.findticket_line {
+    border-top: 1px #fff dashed;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:583px;
+}
+.findticket_multi {
+
+}
+.findticket_multi_del {
+    float:right;
+    margin-top:-8px;
+    margin-right:-20px;
+}
+.modal-header, .modal-body {
+    color:#000;
+}
+
+.innercontent {
+    background: #fff;
+
+    border-radius: 10px;
+    color:#464646;
+    padding: 20px;
+    width:900px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.innercontent h1 {
+    color:#145881;
+    font-weight: normal;
+}
+.innercontent h3 {
+    font-weight: normal;
+}
